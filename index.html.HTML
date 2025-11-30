@@ -1,0 +1,342 @@
+<!doctype html>
+<html lang="ta">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+  <title>அருள்மிகு ஸ்ரீ சக்காளம்மன் – கிருஷ்ணர் சாமி</title>
+  <meta name="description" content="ஸ்ரீ சக்காளம்மன் – கிருஷ்ணர் சாமியின் சக்திவாய்ந்த வரலாறு, மழை அருளின் அதிசயங்கள், நோய் தீர்க்கும் நிகழ்வுகள் மற்றும் சித்திரை, மாட்டுப் பொங்கல் திருவிழாக்கள் பற்றிய முழு தகவல்கள்." />
+
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --accent:#9f2b2b; /* primary */
+      --accent-2:#d85a5a; /* gradient */
+      --muted:#6b6b6b;
+      --bg:#fffaf6;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+      --radius:12px;
+      --container:1100px;
+    }
+
+    *{box-sizing:border-box}
+    html,body{height:100%;margin:0;font-family:'Noto Sans Tamil', system-ui, -apple-system, 'Segoe UI', Roboto, Arial;background:linear-gradient(180deg,var(--bg) 0%, #f6f2ee 100%);color:#222}
+
+    /* HEADER */
+    header{background:linear-gradient(90deg,var(--accent),var(--accent-2));color:white;padding:14px 18px;position:sticky;top:0;z-index:40;box-shadow:0 6px 20px rgba(0,0,0,0.06)}
+    .wrap{max-width:var(--container);margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+    .logo{display:flex;align-items:center;gap:10px}
+    .mark{width:48px;height:48px;border-radius:10px;background:rgba(255,255,255,0.12);display:flex;align-items:center;justify-content:center;font-weight:800}
+    .title{line-height:1}
+    .title h1{margin:0;font-size:18px;font-weight:800}
+    .title p{margin:0;font-size:12px;opacity:0.95}
+
+    /* NAV */
+    nav{display:flex;align-items:center;gap:12px}
+    nav a{color:inherit;text-decoration:none;padding:8px 10px;border-radius:8px;font-weight:700;font-size:14px}
+    nav a:hover{background:rgba(255,255,255,0.08)}
+
+    /* hamburger for mobile */
+    .hamburger{display:none;width:44px;height:44px;border-radius:8px;background:rgba(255,255,255,0.08);align-items:center;justify-content:center;border:none;color:white}
+
+    /* MAIN */
+    main{max-width:var(--container);margin:20px auto;padding:0 18px}
+
+    /* HERO LAYOUT */
+    .hero{display:grid;grid-template-columns:1fr 360px;gap:20px;align-items:start}
+    .card{background:var(--card);border-radius:var(--radius);padding:16px;box-shadow:0 10px 30px rgba(30,30,30,0.06)}
+    .lead{color:var(--muted);line-height:1.7}
+    .story{margin-top:12px;line-height:1.85;font-size:15.8px;white-space:pre-wrap}
+
+    .side-cta h3{margin:0 0 8px}
+    .timeline{display:flex;flex-direction:column;gap:10px}
+    .timeline .item{padding:10px;border-left:4px solid var(--accent);background:linear-gradient(90deg,rgba(159,43,43,0.03),transparent);border-radius:6px}
+
+    /* GALLERY & RITUALS */
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
+    .gallery img{width:100%;height:130px;object-fit:cover;border-radius:8px}
+    .rituals{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:12px}
+
+    /* CONTACT */
+    form input, form textarea{font-family:inherit}
+
+    footer{margin-top:32px;padding:22px;background:#222;color:#fff;border-top:6px solid var(--accent)}
+
+    /* Responsive breakpoints */
+    /* Mobile phones */
+    @media (max-width:599px){
+      .wrap{padding:0}
+      nav{display:none}
+      .hamburger{display:flex}
+      header{padding:10px}
+      .title h1{font-size:16px}
+      .hero{grid-template-columns:1fr;gap:14px}
+      .card{padding:14px}
+      .gallery{grid-template-columns:repeat(2,1fr)}
+      .gallery img{height:110px}
+      .rituals{grid-template-columns:1fr}
+      .mark{width:44px;height:44px}
+      .btn{padding:10px 12px;font-size:15px}
+
+      /* make touch-friendly blocks */
+      nav a{padding:12px 10px;font-size:16px}
+
+      /* floating quick actions */
+      .fab{position:fixed;right:18px;bottom:18px;background:var(--accent);color:#fff;border-radius:999px;padding:12px 14px;box-shadow:0 8px 24px rgba(0,0,0,0.18);display:flex;align-items:center;gap:10px}
+    }
+
+    /* Tablet */
+    @media (min-width:600px) and (max-width:980px){
+      .hero{grid-template-columns:1fr 300px}
+      .gallery{grid-template-columns:repeat(3,1fr)}
+      .rituals{grid-template-columns:repeat(2,1fr)}
+    }
+
+    /* Desktop */
+    @media (min-width:981px){
+      .hero{grid-template-columns:1fr 360px}
+      .gallery img{height:150px}
+      .rituals{grid-template-columns:repeat(3,1fr)}
+    }
+
+    /* shared small helpers */
+    .btn{background:var(--accent);color:#fff;padding:10px 14px;border-radius:8px;border:none;font-weight:800;text-decoration:none;display:inline-block}
+    .btn-ghost{background:#fff;color:var(--accent);border:2px solid var(--accent);padding:10px 12px;border-radius:8px;font-weight:700}
+    .muted{color:var(--muted)}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div style="display:flex;align-items:center;gap:12px">
+        <div class="logo">
+          <div class="mark">ச</div>
+          <div class="title">
+            <h1>அருள்மிகு ஸ்ரீ சக்காளம்மன்</h1>
+            <p>கிருஷ்ணர் சாமி – ஸ்தல வரலாறு</p>
+          </div>
+        </div>
+      </div>
+
+      <nav aria-label="Main Navigation">
+        <a href="#story">வரலாறு</a>
+        <a href="#miracles">அதிசயம்</a>
+        <a href="#rituals">திருவிழா</a>
+       
+      </nav>
+
+      <button class="hamburger" id="hamburger" aria-label="Open menu">☰</button>
+    </div>
+
+    <!-- mobile menu (hidden by default) -->
+    <div id="mobileMenu" style="display:none;background:linear-gradient(180deg,var(--accent),var(--accent-2));color:white;padding:12px 18px">
+      <a href="#story" style="display:block;padding:10px 0;color:white;text-decoration:none;font-weight:700">வரலாறு</a>
+      <a href="#miracles" style="display:block;padding:10px 0;color:white;text-decoration:none;font-weight:700">அதிசயம்</a>
+      <a href="#rituals" style="display:block;padding:10px 0;color:white;text-decoration:none;font-weight:700">திருவிழா</a>
+      <a href="#contact" style="display:block;padding:10px 0;color:white;text-decoration:none;font-weight:700">தொடர்பு</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <section class="hero" style="width:100%">
+        <div class="card">
+          <h2 style="margin-top:4px">அருள்மிகு ஸ்ரீ சக்காளம்மன் – கிருஷ்ணர் சாமி</h2>
+          <p class="lead">ஸ்ரீ சக்காளம்மன் மற்றும் கிருஷ்ணர் சாமியின் உருவான கதை — கிராமம் மீண்டும் வளமுற்றதும், நோய்கள் நீங்கியதும், மக்கள் சிறப்பு வழிபாடுகளை செய்தும் நிகழ்ந்த சம்பவங்கள்.</p>
+
+          <article class="story card" id="story">
+அருள்மிகு ஸ்ரீ சக்காளம்மன் – கிருஷ்ணர் சாமி உருவான கதை
+
+மக்கள் அனைவரும் வறட்சியால் தவித்துக் கொண்டிருந்த காலகட்டம் அது. நம் ஊரின் ஒருவருக்கு பசியின் கொடுமையால் என்ன செய்வது என தெரியாமல், அருகிலுள்ள வேறு ஒரு ஊருக்கு சென்று மாட்டை திருட வேண்டும் என எண்ணம் தோன்றியது. ஆனால் அங்கே சென்றபோது அவர் பிடிபட்டார். அவரை மரத்தில் கட்டி வைத்து கடுமையாக அடித்தனர். அந்த மனவேதனையிலும் ஏக்கத்திலும் அவர் காடு வழியே தனியாக நடந்துச் சென்றார்.
+
+அப்போது அவருக்கு கண்ணில் கிருஷ்ணர் மற்றும் சக்காளம்மன் சாமி தோன்றினர். உடனே அவர் மனதில் ஒரு எண்ணம் எழுந்தது
+இந்த சாமி நம்ம ஊரில் இருந்தால், நம் ஊருக்கு நன்மை வரும் எனக் கருதி
+
+அவர் போர்த்தியிருந்த போர்வைக்குள் அந்த சாமி சிலைகளை வைத்து, தனியாக 40 மைல் தூரம் தூக்கி வந்து, தனது கிராமத்தில் சிறு குளக்கரையில் ஆலமரத்தின் அடியில் பிரதிஷ்டை செய்தார். 
+
+சாமி அமர்ந்த தினமே, இடியும் மின்னலும் கூட கனமழை பெய்தது. ஏரிகள், குளங்கள், குட்டைகள் அனைத்தும் நிரம்பி வழிந்தன. அந்த ஆண்டு முதல்  வறட்சி இல்லாமல், மக்கள் பசி–பட்டினி இல்லாமல் மக்கள் செழிப்புடன் வாழ்ந்தனர். விவசாயமும் செழித்து. 
+
+சில ஆண்டுகள் கழித்து ஊரில் திடீரென பெரிய நோய் பரவியது. ஆடு–மாடுகள் அதிக அளவில் இறக்க ஆரம்பித்தன. என்ன செய்வது என்று தெரியாமல் மக்கள் துயரத்தில் இருந்தார்கள். அப்போது ஊர் பொதுமக்கள் அனைவரும் ஸ்ரீ சக்காளம்மன் மற்றும் கிருஷ்ணன் சாமியிடம் வேண்டி, தீர்த்தம் வைத்து, சாமியின் அருளை நாடினர். அதன் பின்னர் ஆடு–மாடுகள் தெளித்து தனர் பின்னர் நோயிலிருந்து குணமடைந்தன.
+
+அது மட்டும் அல்ல அதே ஆண்டில் மக்கள் “அம்மை நோய்”யால் பாதிக்கப்பட்டனர். அப்போது வேப்பிலை, மஞ்சள் அரைத்து சாமியின் முன் வைத்து வேண்டிய பின்னர், அந்த கலவையை நோய்ப்பட்டவர்களுக்கு பூசி குளிக்க வைத்தனர். சில நாட்களில் அம்மை நோயும் குணமடைந்தது. மக்கள் ஒரு பெரிய பாதிப்பிலிருந்து விடுபட்டனர்
+
+வறட்சி காலம் வரும் போது குடிக்கத் தண்ணீருக்கே தட்டுப்பாடு ஏற்பட்டது. அப்போது கிராம மக்கள் அனைவரும் மாலை நேரத்தில் (4 முதல் 7 மணி வரை) ஒன்று சேர்ந்து, வர்ண பகவானை வேண்டி குளத்தில் மண்ணால் மகாதேவன் (சிவன்)சிலையை உருவாக்கி  11 சிறுவர்களை நின்று வைத்து, அவர்கள் கையில் ஊதுபத்தி ஏந்தி நிற்க வைத்து “சாமி அழைத்து” அருள்வாக்கு கேட்டு வழிபாடு நடத்தினர். அதே இரவு முழுவதும் கனமழை பெய்து, வறட்சியிலிருந்து கிராமம் மீண்டது. இவை அனைத்தும் உண்மை சம்பவங்கள்.
+
+ஆண்டு தோறும் சித்திரை 1 மற்றும் மாட்டுப் பொங்கல் அன்று, குடும்பத்திற்காக உழைக்கும் மாட்டை தெய்வமாக நினைத்து, சக்கரை பொங்கல் செய்து சக்காளம்மன் சாமிக்கு படைத்து  கால்நடைகளுக்கு கொடுப்பது  வழக்கம். மேலும் கிருஷ்ண ஜெயந்தி அன்று, குழந்தைகளை கிருஷ்ணர் வேடமிட்டு வழிபடுவது அந்த ஊரின் பழமையான மரபாகும்.
+
+இதுவே ஸ்ரீ கிருஷ்ணன் மற்றும் சக்காளம்மன் சாமியின் சக்திவாய்ந்த உண்மை வரலாறு.
+
+குறிப்பு:
+இந்த சாமிக்கு வேண்டுதல் வைத்து எதை வேண்டினாலும், அது நிறைவேற்றி தரும் என்பதே மக்கள் நம்பிக்கை.
+          </article>
+
+          <div style="margin-top:12px;display:flex;gap:10px;flex-wrap:wrap">
+            <a class="btn" href="#miracles">அதிசயங்களைப் பார்க்க</a>
+         
+          </div>
+        </div>
+
+        <aside class="card side-cta">
+          <h3>சாமியின் முக்கிய அம்சங்கள்</h3>
+          <div class="timeline">
+            <div class="item"><strong>மழை தரும் சக்தி</strong> — சாமி அமர்ந்த நாளே கனமழை பெய்தது.</div>
+            <div class="item"><strong>நோய்களை நீக்கும்</strong> — ஆடு மாடுகள் மற்றும் அம்மை நோய் குணம்.</div>
+            <div class="item"><strong>வாழ்க்கை வளம்</strong> — விவசாயம் செழித்தது; மக்கள் நலமடைந்தனர்.</div>
+          </div>
+          <article class="story card" id="story">
+         பழைய நினைவுகள்…
+அவை சாதாரணக் கதைகள் இல்லை.
+அவை ஒரு ஊரின் உயிர்,
+ஒரு குடும்பத்தின் ஆணிவேர்,
+ஒரு மனிதனின் உள்ளத்தின் ஒலி.
+
+நம்ம கிராமத்தில் நடந்த உண்மை நிகழ்வுகள், பெரியவர்கள் சொன்ன வரலாறுகள், சாமி கதைகள் — இவை யாரோ ஒருத்தர் சொல்லிக்கிட்டிருந்த கற்பனைகள் கதைகள் இல்லை
+நம்ம முன்னோர்கள் அனுபவப்பட்டு தாங்கிக் கொண்டு, நம்பிக்கையோடு வாழ்ந்து வந்த உண்மை சான்றுகள்.
+
+ஏன் அவற்றை பாதுகாக்கணும்?
+
+ஏனெனில்…
+ஒருவரின் நினைவு அழிந்துவிட்டால், அவர் வாழ்ந்த தடங்கள்  அழிந்து விடும்.
+
+
+பசியால் தவித்த ஒரு மனிதன்,
+காடு வழியே கண்ணீர் வடித்துத் நடந்த ஒரு வரலாறு,
+ஒரு சாமி உருவம் பார்த்ததும் மனம் மாறிய ஒரு அன்பு,
+ஒரு போர்வையில் மடித்து 40 மைல் தூக்கி வந்த நம்பிக்கை —
+
+இவை எல்லாம் கதைகள் இல்லை.
+நம்ம ஊரின் நம்பிக்கையின் அடையாளங்கள்.
+
+ஏரிகள் நிரம்பிய தினங்களும்,
+மழை பொழிந்த இரவுகளும்,
+
+இவை எல்லாம் மறந்து போகக் கூடாத பொக்கிஷங்கள்.
+
+ஏனெனில்…
+
+நினைவுகள் தான் நம்மை யார் என்று உலகுக்கு சொல்கிறது.
+
+பழைய வரலாறு தான் புதிய தலைமுறைக்கு தைரியம் தருகிறது.
+
+நம்ம ஊர் நம்பிக்கை, நம் தெய்வம், நம் கதைகள் — இவையே நம் அடையாளம்.
+
+நம்ம சக்காளம்மன் & கிருஷ்ணர் சாமி,
+அவர்களது அருளால் மீண்ட மக்கள் —
+அது சாதாரண சம்பவமில்லை.
+அது ஊரை காப்பாற்றிய அருளின் வரலாறு.
+அதை பாதுகாப்பது
+நம்ம தெய்வத்துக்கு செய்யும் கடமை மட்டும் இல்லை…
+நம்ம வாழ கற்றுத்தந்த முன்னோர்களுக்கு செய்யும் மரியாதை
+பழைய நினைவுகளை பாதுகாப்பது
+சுவரில் தொங்கும் ஒரு படத்தை பாதுகாப்பது போல இல்லை.
+அதை பாதுகாப்பது
+நம்  கடமை.
+அதை பாதுகாப்பது—நம் வேர் உயிரோடு இருக்கிறது என்பதற்கு அறிகுறி.
+
+           </article>
+        </aside>
+      </section>
+    </div>
+
+    <div class="wrap" style="margin-top:18px">
+      <section id="miracles" style="flex:1">
+        <div class="card">
+          <h3>அதிசயங்கள் & நிகழ்வுகள்</h3>
+          <p class="muted">பக்தர்களால் காணப்பட்ட மற்றும் உணர்ந்த-change நிகழ்வுகள்.</p>
+
+          <ul class="muted" style="line-height:1.8;margin-top:12px">
+            <li>சக்காளம்மன் அமர்ந்த நாளே கனமழை பெய்தது; விவசாய வாழ்வு செழித்தது.</li>
+            <li>ஆடு மாடுகள் நோயிலிருந்து தீர்த்தத்தால் குணமடைந்தன.</li>
+            <li>அம்மை நோயும் வேப்பிலை–மஞ்சள் பரிசோதனையால் குணமடைந்தது.</li>
+            <li>சித்திரை 1, மாட்டுப் பொங்கல் போன்ற வருடாந்திர நிகழ்வுகள்.</li>
+          </ul>
+        </div>
+      </section>
+
+      <aside style="width:320px;min-width:260px;margin-left:18px">
+        <div class="card">
+          <h4>அறிவிக்கைகள்</h4>
+          <p class="muted" style="line-height:1.6">வரும் திருவிழாக்கள்: சித்திரை 1 (மிதமாக), மாட்டுப் பொங்கல், கிருஷ்ண ஜெயந்தி. விரைவில் செயற்கை வரைபடம் மற்றும் தொடர்பு விவரங்கள் இணைக்கப்படும்.</p>
+        </div>
+      </aside>
+    </div>
+
+    <div class="wrap" style="margin-top:18px">
+      <section id="rituals" style="flex:1">
+        <h3>வழிபாட்டு வழிகள் & திருவிழாக்கள்</h3>
+        <div class="rituals">
+          <div class="rit card">
+            <h4>சித்திரை 1</h4>
+            <p class="muted">சக்தி, நிவேதனம் மற்றும் குடும்ப நலனுக்காக சிறப்பு பூஜை.</p>
+          </div>
+          <div class="rit card">
+            <h4>மாட்டுப் பொங்கல்</h4>
+            <p class="muted">மாட்டை தேவதையாகக் கருதி சக்கரை பொங்கல் செய்து பூஜை செய்கின்றனர்.</p>
+          </div>
+          <div class="rit card">
+            <h4>கிருஷ்ண ஜெயந்தி</h4>
+            <p class="muted">குழந்தைகள் கிருஷ்ணர் வேடம் அணிந்து சிறப்பு விருந்துகள் மற்றும் பூஜை.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+
+       
+            <h4 style="margin-top:12px">அவர் பணிகள்</h4>
+            <ul class="muted" style="line-height:1.6">
+              <li>தின பூஜை மற்றும் தீபத் திருப்பு</li>
+              <li>திருவிழா ஏற்பாடுகள்</li>
+              <li>தானப்பணிகள் மற்றும் ஆலய பராமரிப்பு</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <div>
+        <strong>அருள்மிகு ஸ்ரீ சக்காளம்மன் – கிருஷ்ணர் சாமி</strong>
+        <div style="font-size:13px;color:#e8e8e8;margin-top:6px">© All rights reserved</div>
+      </div>
+      <div style="font-size:13px;color:#e8e8e8">Designed responsive for 2025 </div>
+    </div>
+  </footer>
+
+ 
+
+  <script>
+    // Mobile menu toggle
+    const ham = document.getElementById('hamburger');
+    const menu = document.getElementById('mobileMenu');
+    ham && ham.addEventListener('click', ()=>{
+      if(menu.style.display === 'none' || menu.style.display === '') menu.style.display = 'block';
+      else menu.style.display = 'none';
+    });
+
+    // show FAB on small screens
+    const fab = document.getElementById('fab');
+    function checkFab(){
+      if(window.matchMedia('(max-width:599px)').matches){fab.style.display='flex'} else {fab.style.display='none'}
+    }
+    checkFab(); window.addEventListener('resize', checkFab);
+
+    // smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', function(e){
+        const href = this.getAttribute('href');
+        if(href.length>1){
+          e.preventDefault();
+          document.querySelector(href).scrollIntoView({behavior:'smooth',block:'start'});
+          // close mobile menu
+          if(window.matchMedia('(max-width:599px)').matches) menu.style.display = 'none';
+        }
+      })
+    })
+  </script>
+</body>
+</html>
